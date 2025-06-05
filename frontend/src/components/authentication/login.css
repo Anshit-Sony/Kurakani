@@ -1,0 +1,102 @@
+.switch {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.switch span {
+    cursor: pointer;
+    font-size: 16px;
+    color: #4e73df;
+    font-weight: 600;
+}
+
+.switch span:hover {
+    color: #3a5bdc;
+}
+
+form div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass span {
+    cursor: pointer;
+    color: blue;
+    margin-left: 10px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4e73df;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #4e73df;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #3a5bdc;
+}
+
+#guest-btn {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: normal;
+}
+
+#guest-btn:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+    .switch {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .switch span {
+        margin: 5px 0;
+    }
+}
