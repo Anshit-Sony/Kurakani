@@ -35,7 +35,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
       };
 
       const { data } = await axios.get(
-        `http://localhost:3000/api/message/${SelectedChat._id}`,
+        `${ENDPOINT}/api/message/${SelectedChat._id}`,
         config
       );
 
