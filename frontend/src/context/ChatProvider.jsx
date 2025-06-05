@@ -11,7 +11,7 @@ const ChatProvider = ({ children }) => {
   const [notification, setNotification]=useState([]);
   const navigate=useNavigate();
   const ENDPOINT="https://kurakani-t6ji.onrender.com"
-
+  
   useEffect(() => {
     const userInfo = JSON.parse(localStorage.getItem("userInfo") || "null");
 
