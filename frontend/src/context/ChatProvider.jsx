@@ -10,7 +10,7 @@ const ChatProvider = ({ children }) => {
   const [Chats, setChats]=useState([]);
   const [notification, setNotification]=useState([]);
   const navigate=useNavigate();
-  const ENDPOINT="http://localhost:3000"
+  const ENDPOINT="https://kurakani-t6ji.onrender.com"
 
   useEffect(() => {
     const userInfo = JSON.parse(localStorage.getItem("userInfo") || "null");
