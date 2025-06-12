@@ -40,13 +40,7 @@ Kurakani is a full-stack real-time chat application built using the **MERN stack
 
 ---
 
-## 🌍 Live Demo
-
-Kurakani: ## 🌍 Live Demo
-
-Frontend: [https://kurakani-frontend.onrender.com/]
-
----
+## 🌍 Live Demo: [https://kurakani-frontend.onrender.com/]
 
 ---
 
